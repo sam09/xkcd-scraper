@@ -19,6 +19,6 @@ setup(name='xkcdScraper',
           'beautifulsoup4',
           'requests',
       ],
-      scripts=['scripts/scarper.py'],
+      scripts=['xkcdScraper.py'],
       include_package_data=True,
       zip_safe=False)
