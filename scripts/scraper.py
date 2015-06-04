@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 from xkcdScraper import xkcdScraper, is_int
 
 import sys 
