@@ -1,4 +1,19 @@
+# A xkcd Comic Scraper 
+ Download xkcd Comics from the terminal
 
+###Installtion 
+ pip install xkcdScraper
+
+###Usage
+
+* From the terminal 
+  xkcdscraper [--options] args
+
+* Import in your code
+  
+  `from xkcdScraper import xkcdScraper`
+  ` d = xkcdScraper()`
+  ` d.download(index)`
 
 ###Options
 
