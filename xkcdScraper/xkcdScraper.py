@@ -34,10 +34,16 @@ class xkcdScraper():
 		HTML = self.get_HTML(i)
 		self.parse_HTML(HTML)
 		src = self.metaData['src']
-		path = self.metaData['filename']
+		path = "Comics"
+		if not os.path.exists(path):
+			os.makedirs(path)
+			print path + " created"
+		path = "Comics/" + self.metaData['filename']
 		
 		r = requests.get(src)
 		if r.status_code == 200:
 			with open(path, 'wb') as f:
 				for chunk in r.iter_content():
 					f.write(chunk)
+		
+		print self.metaData['filename'] + " downloaded to " + path
