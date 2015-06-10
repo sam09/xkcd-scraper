@@ -4,13 +4,13 @@
 A program that Scrapes images from xkcd.com
 
 ####Usage
-./scraper.py [options] args
+`./scraper.py [options] args`
 
 ####Installation
 
-* `git clone https://github.com/samrk09/xkcdScraper.git`
+* `git clone https://github.com/samrk09/xkcd-scraper.git`
 
-* `cd xkcdScraper`
+* `cd xkcd-scraper`
 
 * `pip install -r requirements.txt`
 
