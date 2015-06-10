@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 from xkcdScraper import xkcdScraper, is_int
-
 import sys 
 
 def print_help():
@@ -15,8 +14,8 @@ def main():
 	try:
 		choice = sys.argv[1]
 		dl  = xkcdScraper()
-		if is_int(choice):
-			dl.download(choice)
+		if is_int(choice):	
+			dl.download(choice)	
 		elif choice == "-m":
 			try:
 				count = sys.argv[2]

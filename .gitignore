@@ -1,7 +1,3 @@
 Comics/*
 */*.pyc
 *.pyc
-xkcdScraper.egg-info/*
-build/*
-dist/*
-
