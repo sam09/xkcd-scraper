@@ -12,7 +12,7 @@ A program that Scrapes images from xkcd.com
 
 * `cd xkcd-scraper`
 
-* `pip install -r requirements.txt`
+* `pip install -r "requirements.txt"`
 
 ####Options
 	*  i : download image at url http://xkcd.com/i
